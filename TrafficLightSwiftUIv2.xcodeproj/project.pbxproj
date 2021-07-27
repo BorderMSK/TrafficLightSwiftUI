@@ -11,6 +11,8 @@
 		BC7739C026B0AA7700DB95B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7739BF26B0AA7700DB95B1 /* ContentView.swift */; };
 		BC7739C226B0AA7A00DB95B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7739C126B0AA7A00DB95B1 /* Assets.xcassets */; };
 		BC7739C526B0AA7A00DB95B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7739C426B0AA7A00DB95B1 /* Preview Assets.xcassets */; };
+		BC7739CD26B0AAA100DB95B1 /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7739CC26B0AAA100DB95B1 /* ChangeColor.swift */; };
+		BC7739CF26B0AAB100DB95B1 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7739CE26B0AAB100DB95B1 /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BC7739C126B0AA7A00DB95B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC7739C426B0AA7A00DB95B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC7739C626B0AA7A00DB95B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7739CC26B0AAA100DB95B1 /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
+		BC7739CE26B0AAB100DB95B1 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				BC7739C126B0AA7A00DB95B1 /* Assets.xcassets */,
 				BC7739C626B0AA7A00DB95B1 /* Info.plist */,
 				BC7739C326B0AA7A00DB95B1 /* Preview Content */,
+				BC7739CC26B0AAA100DB95B1 /* ChangeColor.swift */,
+				BC7739CE26B0AAB100DB95B1 /* ActionButton.swift */,
 			);
 			path = TrafficLightSwiftUIv2;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7739CD26B0AAA100DB95B1 /* ChangeColor.swift in Sources */,
 				BC7739C026B0AA7700DB95B1 /* ContentView.swift in Sources */,
 				BC7739BE26B0AA7700DB95B1 /* TrafficLightSwiftUIv2App.swift in Sources */,
+				BC7739CF26B0AAB100DB95B1 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
