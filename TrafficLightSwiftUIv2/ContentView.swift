@@ -41,15 +41,25 @@ struct ContentView: View {
     }
     
     var body: some View {
-        VStack {
-            ChangeColor(color: .red, opacity: redLight)
-            ChangeColor(color: .yellow, opacity: yellowLight)
-            ChangeColor(color: .green, opacity: greenLight)
-            ActionButton(title: buttonTitle) {
-                if buttonTitle == "Start" {
-                    buttonTitle = "Next"
-                }
-                changeColor()
+        
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            
+            VStack {
+//                Spacer()
+                ChangeColor(color: .red, opacity: redLight)
+                    .padding(.bottom, 30)
+                ChangeColor(color: .yellow, opacity: yellowLight)
+                    .padding(.bottom, 30)
+                ChangeColor(color: .green, opacity: greenLight)
+//                Spacer()
+                ActionButton(title: buttonTitle) {
+                    if buttonTitle == "Start" {
+                        buttonTitle = "Next"
+                    }
+                    changeColor()
+                }.padding(.top, 90)
             }
         }
     }
