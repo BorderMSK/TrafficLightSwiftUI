@@ -20,6 +20,7 @@ struct ActionButton: View {
                 .frame(width: 250, height: 100)
                 .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.yellow, Color.green]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(30)
+                .padding(.top, 90)
         }
     }
 }

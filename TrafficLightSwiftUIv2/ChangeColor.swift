@@ -18,6 +18,7 @@ struct ChangeColor: View {
                 .frame(width: 150, height: 150)
                 .foregroundColor(color)
                 .opacity(opacity)
+                .padding(.bottom, 30)
                 
         }
     }
