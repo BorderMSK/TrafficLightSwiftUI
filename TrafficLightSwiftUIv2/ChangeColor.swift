@@ -13,14 +13,39 @@ struct ChangeColor: View {
     let opacity: Double
     
     var body: some View {
-        VStack{
+        ZStack{
             Circle()
-                .frame(width: 150, height: 150)
                 .foregroundColor(color)
                 .opacity(opacity)
-                .padding(.bottom, 30)
-                
+                .padding(20)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(30)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(40)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(50)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(60)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(70)
+            Circle()
+                .foregroundColor(color)
+                .opacity(opacity)
+                .padding(80)
+                .overlay(Circle().stroke(Color.white, lineWidth: 5))
+            
         }
+        .frame(width: 200, height: 200)
     }
 }
 

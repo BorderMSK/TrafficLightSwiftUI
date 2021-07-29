@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-enum CurrentLights {
-    case red, yellow, green
-}
-
 struct ContentView: View {
     
     @State private var redLight = 0.3
@@ -18,9 +14,9 @@ struct ContentView: View {
     @State private var greenLight = 0.3
     @State private var currentLight = CurrentLights.red
     @State private var buttonTitle = "Start"
-    @State private var lightOn = 1.0
-    @State private var lightOff = 0.3
     
+    private let lightOn = 1.0
+    private let lightOff = 0.3
     
     private func changeColor() {
         
